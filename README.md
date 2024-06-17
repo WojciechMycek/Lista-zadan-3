@@ -22,3 +22,43 @@ This repository contains a Python script that automates the testing of API endpo
 Test 1: PASSED - Passed
 Test 2: PASSED - Passed
 Test 3: PASSED - Passed
+
+## Files
+
+- `app.py`: The main application file.
+- `test_app.py`: Unit tests for the application.
+- `Makefile`: Contains rules to install dependencies, run tests, and run the application.
+- `requirements.txt`: A placeholder for dependencies (not required for this application).
+
+## Makefile Rules
+
+- `install`: Installs dependencies.
+- `test`: Runs unit tests.
+- `run`: Runs the application.
+
+## How to Use
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/simple-arithmetic-app.git
+    cd simple-arithmetic-app
+    ```
+
+2. Install dependencies:
+    ```sh
+    make install
+    ```
+
+3. Run the tests:
+    ```sh
+    make test
+    ```
+
+4. Run the application:
+    ```sh
+    make run
+    ```
+
+## License
+
+This project is licensed under the MIT License.
